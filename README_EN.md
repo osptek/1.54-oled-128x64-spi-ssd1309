@@ -17,7 +17,6 @@
 
 ## Contents
 
-- [Branches](#branches)
 - [Overview](#overview)
 - [Specifications](#specifications)
 - [Sample projects](#sample-projects)
@@ -27,15 +26,6 @@
 - [Support](#support)
 
 ---
-
-## Branches
-
-One branch per part number (repo default: screen [`OED154-12864W002-C24`](https://github.com/osptek/1.54-oled-128x64-spi-ssd1309/tree/OED154-12864W002-C24)):
-
-| Branch | Notes |
-| ------ | ----- |
-| [`OED154-12864W002-C24`](https://github.com/osptek/1.54-oled-128x64-spi-ssd1309/tree/OED154-12864W002-C24) | 1.54″ 128×64 OLED **panel** docs |
-| **[`ODM154-12864W001-P7`](https://github.com/osptek/1.54-oled-128x64-spi-ssd1309/tree/ODM154-12864W001-P7)** | **This branch** · companion **module** (with PCB) docs |
 
 ## Overview
 
