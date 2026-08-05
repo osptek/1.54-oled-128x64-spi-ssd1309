@@ -35,7 +35,7 @@ Spec ID (repository name): `1.54-oled-128x64-spi-ssd1309`
 
 > Datasheets may list the driver as **SPD0301**. That is an alternate marking for the same chip family as **SSD1309** and is **fully software-compatible**; this repository uses the **SSD1309** name.
 
-Current module version: **ODM154-12864W001-P7**. Screen details follow [`docs/OED154-12864W002-C24.pdf`](./docs/OED154-12864W002-C24.pdf); module details follow [`docs/ODM154-12864W001-P7.pdf`](./docs/ODM154-12864W001-P7.pdf).
+Current module version: **ODM154-12864W001-P7**. Module details follow [`docs/ODM154-12864W001-P7.pdf`](./docs/ODM154-12864W001-P7.pdf); screen details follow [`docs/OED154-12864W002-C24.pdf`](./docs/OED154-12864W002-C24.pdf) (screen branch: [`OED154-12864W002-C24`](https://github.com/osptek/1.54-oled-128x64-spi-ssd1309/tree/OED154-12864W002-C24)).
 
 ## Specifications
 
