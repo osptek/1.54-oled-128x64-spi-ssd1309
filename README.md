@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 1.54″ OLED 128×64（SSD1309 · SPI）</h1>
 
-<p align="center"><b>单色 OLED 模组 · SPI · SSD1309</b></p>
+<p align="center"><b>OLED 模组 · SPI · SSD1309 · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -13,91 +13,68 @@
   <img alt="Driver: SSD1309" src="https://img.shields.io/badge/Driver-SSD1309-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 1.54 寸 OLED 128×64 模组（SSD1309）宣传图" src="./images/product.png" width="640" /></p>
-
 ## 目录
 
-- [分支介绍](#分支介绍)
-- [产品简介](#产品简介)
-- [规格参数](#规格参数)
-- [示例工程](#示例工程)
-- [仓库结构](#仓库结构)
-- [相关资料](#相关资料)
+- [说明](#说明)
+- [版本一览](#版本一览)
+- [ODM154-12864W001-P7](#odm154-12864w001-p7)
+- [OED154-12864W002-C24](#oed154-12864w002-c24)
+- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 分支介绍
+## 说明
 
-本仓库按料号分为多个分支（**默认分支**为 [`OED154-12864W002-C24`](https://github.com/osptek/1.54-oled-128x64-spi-ssd1309/tree/OED154-12864W002-C24)）：
+本仓库收录 **1.54 寸 128×64 OLED（SPI · SSD1309）** 显示模组资料。
 
-| 型号 | 分支 | 说明 |
-| ---- | ---- | ---- |
-| OED154-12864W002-C24 | [`OED154-12864W002-C24`](https://github.com/osptek/1.54-oled-128x64-spi-ssd1309/tree/OED154-12864W002-C24) | 屏幕（仓库默认分支） |
-| ODM154-12864W001-P7 | [`ODM154-12864W001-P7`](https://github.com/osptek/1.54-oled-128x64-spi-ssd1309/tree/ODM154-12864W001-P7) | **本分支** · 配套模组 |
-
-## 产品简介
-
-OSPTEK **1.54 寸 128×64 OLED** 是一款 **SPI** 单色显示模组，驱动芯片为 **SSD1309**。适合状态栏、菜单提示、调试信息与简单动画等显示场景。
+**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
 规格标识（仓库名）：`1.54-oled-128x64-spi-ssd1309`
 
-> 规格书中驱动 IC 可能标注为 **SPD0301**：与 **SSD1309** 为同一芯片族的不同料号，**软件完全兼容**；本仓库统一按 **SSD1309** 命名。
+---
 
-当前模组版本：**ODM154-12864W001-P7**。模组细节以 [`docs/ODM154-12864W001-P7.pdf`](./docs/ODM154-12864W001-P7.pdf) 为准；屏幕规格以 [`docs/OED154-12864W002-C24.pdf`](./docs/OED154-12864W002-C24.pdf) 为准（屏幕分支：[`OED154-12864W002-C24`](https://github.com/osptek/1.54-oled-128x64-spi-ssd1309/tree/OED154-12864W002-C24)）。
+## 版本一览
 
-## 规格参数
+| 版本 | 宣传图 | 说明 |
+| ---- | ------ | ---- |
+| ODM154-12864W001-P7 | <img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="120" /> | [查看详情](#odm154-12864w001-p7) |
+| OED154-12864W002-C24 | <img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="120" /> | [查看详情](#oed154-12864w002-c24) |
 
-| 项目 | 规格 |
-| ---- | ---- |
-| 尺寸 | 1.54 英寸 |
-| 类型 | OLED（单色） |
-| 分辨率 | 128×64 |
-| 接口 | SPI（4-wire） |
-| 驱动 IC | SSD1309 |
+---
 
-> 完整外形尺寸、引脚定义、供电与电气特性以产品规格书 / 驱动手册为准。
+## ODM154-12864W001-P7
 
-## 示例工程
+<p align="center"><img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="320" /></p>
 
-| 说明 | 路径 |
-| ---- | ---- |
-| ESP32-S3 · SSD1309 SPI bringup（动画演示） | [`examples/esp32s3-1.54-oled-128x64-spi-ssd1309-bringup/`](./examples/esp32s3-1.54-oled-128x64-spi-ssd1309-bringup/) |
+**说明：** 模组。
 
-## 仓库结构
+---
 
-```text
-1.54-oled-128x64-spi-ssd1309/
-├── README.md
-├── README_EN.md
-├── LICENSE
-├── images/          # README 用图
-├── docs/            # 规格书、驱动手册、初始化等
-└── examples/        # 示例工程
-```
+## OED154-12864W002-C24
 
-## 相关资料
+<p align="center"><img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="320" /></p>
 
-### 本产品资料
+**说明：** 模组。
 
-| 资料 | 链接 |
-| ---- | ---- |
-| 模组规格书（ODM154-12864W001-P7） | [`docs/ODM154-12864W001-P7.pdf`](./docs/ODM154-12864W001-P7.pdf) |
-| 屏幕规格书（OED154-12864W002-C24） | [`docs/OED154-12864W002-C24.pdf`](./docs/OED154-12864W002-C24.pdf) |
-| 驱动 IC 数据手册（SSD1309 / SPD0301） | [`docs/SPD_0301_0_1_d964ef5b8f.pdf`](./docs/SPD_0301_0_1_d964ef5b8f.pdf) |
-| 初始化代码 | [`docs/1.54寸 2864初始化(spd0301).C`](./docs/1.54%E5%AF%B8%202864%E5%88%9D%E5%A7%8B%E5%8C%96%28spd0301%29.C) |
+---
 
-### 示例工程
+## 如何切换分支
 
-- [ESP32-S3 SSD1309 SPI bringup](./examples/esp32s3-1.54-oled-128x64-spi-ssd1309-bringup/)
+完整产品资料在各**版本分支**中；`main` 仅作导航。
+
+- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
+- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
+
+---
 
 ## 购买链接
 
 <p align="center">
   <a href="https://shop110742373.taobao.com/"><img alt="淘宝官方店铺" src="https://img.shields.io/badge/淘宝-官方店铺-FF6A00?style=for-the-badge" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
 </p>
 
 **国内（淘宝）**
@@ -107,6 +84,8 @@ OSPTEK **1.54 寸 128×64 OLED** 是一款 **SPI** 单色显示模组，驱动�
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+---
 
 ## 技术支持
 
