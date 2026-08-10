@@ -71,7 +71,6 @@ OSPTEK **1.54 寸 128×64 OLED** 是一款 **SPI** 单色显示模组，驱动�
 1.54-oled-128x64-spi-ssd1309/
 ├── README.md
 ├── README_EN.md
-├── MODULE_VERSION.md
 ├── LICENSE
 ├── images/          # README 用图
 ├── docs/            # 规格书、驱动手册、初始化等

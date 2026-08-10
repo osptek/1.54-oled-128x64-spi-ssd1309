@@ -71,7 +71,6 @@ Current module version: **ODM154-12864W001-P7**. Module details follow [`docs/OD
 1.54-oled-128x64-spi-ssd1309/
 ├── README.md
 ├── README_EN.md
-├── MODULE_VERSION.md
 ├── LICENSE
 ├── images/          # README assets
 ├── docs/            # datasheets, init
