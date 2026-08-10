@@ -48,15 +48,11 @@ Repo id: `1.54-oled-128x64-spi-ssd1309`
 
 <p align="center"><img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="320" /></p>
 
-**Notes:** Module.
-
 ---
 
 ## OED154-12864W002-C24
 
 <p align="center"><img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="320" /></p>
-
-**Notes:** Module.
 
 ---
 

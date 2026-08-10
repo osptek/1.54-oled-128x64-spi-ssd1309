@@ -48,15 +48,11 @@
 
 <p align="center"><img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="320" /></p>
 
-**说明：** 模组。
-
 ---
 
 ## OED154-12864W002-C24
 
 <p align="center"><img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="320" /></p>
-
-**说明：** 模组。
 
 ---
 
