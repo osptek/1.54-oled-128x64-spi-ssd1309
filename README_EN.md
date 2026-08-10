@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 1.54″ OLED 128×64 (SSD1309 · SPI)</h1>
 
-<p align="center"><b>OLED module · SPI · SSD1309 · Multi-Version Index</b></p>
+<p align="center"><b>OLED · SPI · SSD1309 · Multi-Version Index</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -17,8 +17,8 @@
 
 - [About](#about)
 - [Versions](#versions)
-- [ODM154-12864W001-P7](#odm154-12864w001-p7)
 - [OED154-12864W002-C24](#oed154-12864w002-c24)
+- [ODM154-12864W001-P7](#odm154-12864w001-p7)
 - [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
@@ -27,7 +27,7 @@
 
 ## About
 
-This repository holds materials for the **1.54″ 128×64 OLED (SPI · SSD1309)** module family.
+This repository holds materials for the **1.54″ 128×64 OLED (SPI · SSD1309)** family.
 
 **`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
@@ -39,8 +39,16 @@ Repo id: `1.54-oled-128x64-spi-ssd1309`
 
 | Version | Image | Notes |
 | ------- | ----- | ----- |
-| ODM154-12864W001-P7 | <img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="120" /> | [Details](#odm154-12864w001-p7) |
 | OED154-12864W002-C24 | <img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="120" /> | [Details](#oed154-12864w002-c24) |
+| ODM154-12864W001-P7 | <img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="120" /> | [Details](#odm154-12864w001-p7) |
+
+---
+
+## OED154-12864W002-C24
+
+<p align="center"><img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="320" /></p>
+
+**Notes:** Bare panel.
 
 ---
 
@@ -48,11 +56,7 @@ Repo id: `1.54-oled-128x64-spi-ssd1309`
 
 <p align="center"><img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="320" /></p>
 
----
-
-## OED154-12864W002-C24
-
-<p align="center"><img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="320" /></p>
+**Notes:** Module; bare panel model is OED154-12864W002-C24.
 
 ---
 
