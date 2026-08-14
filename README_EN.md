@@ -17,9 +17,8 @@
 
 - [About](#about)
 - [Versions](#versions)
-- [OED154-12864W002-C24](#oed154-12864w002-c24)
 - [ODM154-12864W001-P7](#odm154-12864w001-p7)
-- [How to Switch Branches](#how-to-switch-branches)
+- [OED154-12864W002-C24](#oed154-12864w002-c24)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -29,7 +28,7 @@
 
 This repository holds materials for the **1.54″ 128×64 OLED (SPI · SSD1309)** family.
 
-**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
+The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Repo id: `1.54-oled-128x64-spi-ssd1309`
 
@@ -37,35 +36,30 @@ Repo id: `1.54-oled-128x64-spi-ssd1309`
 
 ## Versions
 
-| Version | Image | Notes |
-| ------- | ----- | ----- |
-| OED154-12864W002-C24 | <img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="120" /> | [Details](#oed154-12864w002-c24) |
-| ODM154-12864W001-P7 | <img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="120" /> | [Details](#odm154-12864w001-p7) |
-
----
-
-## OED154-12864W002-C24
-
-<p align="center"><img alt="OED154-12864W002-C24" src="./images/OED154-12864W002-C24.png" width="320" /></p>
-
-**Notes:** Bare panel.
+| Version | Image | Summary | Full docs |
+| ------- | ----- | ------- | --------- |
+| ODM154-12864W001-P7 | <img alt="ODM154-12864W001-P7" src="./versions/ODM154-12864W001-P7/images/product.png" width="120" /> | [Summary](#odm154-12864w001-p7) | [Full docs](./versions/ODM154-12864W001-P7/) |
+| OED154-12864W002-C24 | <img alt="OED154-12864W002-C24" src="./versions/OED154-12864W002-C24/images/product.png" width="120" /> | [Summary](#oed154-12864w002-c24) | [Full docs](./versions/OED154-12864W002-C24/) |
 
 ---
 
 ## ODM154-12864W001-P7
 
-<p align="center"><img alt="ODM154-12864W001-P7" src="./images/ODM154-12864W001-P7.png" width="320" /></p>
+<p align="center"><img alt="ODM154-12864W001-P7" src="./versions/ODM154-12864W001-P7/images/product.png" width="320" /></p>
 
 **Notes:** Module; bare panel model is OED154-12864W002-C24.
 
+Full product page, datasheets, and examples: [versions/ODM154-12864W001-P7/](./versions/ODM154-12864W001-P7/)
+
 ---
 
-## How to Switch Branches
+## OED154-12864W002-C24
 
-Full product materials are on each **version branch**; `main` is navigation only.
+<p align="center"><img alt="OED154-12864W002-C24" src="./versions/OED154-12864W002-C24/images/product.png" width="320" /></p>
 
-- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
-- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+**Notes:** Bare panel.
+
+Full product page, datasheets, and examples: [versions/OED154-12864W002-C24/](./versions/OED154-12864W002-C24/)
 
 ---
 
